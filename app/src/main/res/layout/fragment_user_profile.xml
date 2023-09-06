@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_image_not_supported_24"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Họ tên: Nguyễn Văn A"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Trạng thái: Đang làm việc"
+                android:textColor="#E41E1E"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chúc một ngày tốt lành !!!!"
+        android:textColor="#00CC00"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_doi_anh"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_btn_sign_in"
+        android:text="Đổi avt"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_dangxuat_hsnv"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_btn_sign_in"
+            android:text="Đăng xuất"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+</LinearLayout>
